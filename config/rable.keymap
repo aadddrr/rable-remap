@@ -27,10 +27,10 @@
 
         arrow_layer {
             bindings = <
-&trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans  &trans
-&trans  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP     &trans  &trans  &trans
-&trans  &sys_reset   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &trans  &trans
-&trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN  &trans     &trans  &trans
+&trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans     &trans  &trans  &trans  &trans
+&trans  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP     &trans  &trans  &trans
+&trans  &sys_reset   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &trans  &kp LEFT  &kp RIGHT  &trans  &trans
+&trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp DOWN  &trans     &trans  &trans
 &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
